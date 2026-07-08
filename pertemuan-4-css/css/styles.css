@@ -1,0 +1,47 @@
+/* Universal Selector */
+/* Universal Selector: Menargetkan semua elemen di seluruh halaman web tanpa kecuali. Ditulis menggunakan tanda bintang * */
+* {
+  font-family: cursive;
+}
+
+/* Type Selector */
+/* Type Selector (Element Selector): Menargetkan semua elemen berdasarkan nama tag HTML-nya.  */
+h1 {
+  background-color: red;
+}
+
+/* Class Selector */
+/* Class Selector: Menargetkan elemen berdasarkan atribut class. Diawali dengan tanda titik . */
+h2.selector1 {
+  background-color: blue;
+}
+
+/* ID selector */
+/* ID Selector: Menargetkan elemen spesifik berdasarkan atribut id. Diawali dengan tanda pagar # */
+#selector2 {
+  background-color: aqua;
+}
+
+/* Child Selector */
+/* Child Selector: Menargetkan elemen yang merupakan anak langsung (turunan tingkat pertama) dari suatu elemen. Penulisannya menggunakan tanda >. */
+li > b {
+  background-color: red;
+}
+
+/* Descendant Selector */
+/* Descendant Selector: Menargetkan elemen yang berada di dalam elemen lain (bisa berupa anak, cucu, atau cicit). Penulisannya dipisahkan oleh spasi. */
+p b {
+  color: red;
+}
+
+/* Adjacent Sibling Selector */
+/* Adjacent Sibling Selector: Menargetkan elemen yang berada tepat setelah elemen lain dan memiliki induk yang sama. Penulisannya menggunakan tanda +. */
+h2 + ol {
+  color: rgb(140, 0, 255);
+}
+
+/* General Sibling Selector */
+/* General Sibling Selector: Menargetkan elemen apa saja yang berada setelah elemen lain (tidak harus tepat bersebelahan) asalkan masih dalam satu induk yang sama. Penulisannya menggunakan tanda ~. */
+h1 ~ p {
+  background-color: whitesmoke;
+}

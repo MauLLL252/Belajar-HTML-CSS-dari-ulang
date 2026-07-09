@@ -1,0 +1,36 @@
+* {
+  font-family: cursive;
+}
+
+h1 {
+  color: red;
+}
+
+h1 {
+  color: aqua;
+}
+
+/* yg paling akhir akan diambil/ aturan terakhir*/
+
+/* spesifik */
+
+p b {
+  color: violet !important; /* level tiga*/
+}
+p b {
+  color: brown; /* level dua*/
+}
+
+b {
+  color: aqua; /* level satu*/
+}
+
+/* studi kasus */
+
+p {
+  font-size: 150%;
+}
+
+p#intro {
+  font-size: 30%;
+}

@@ -1,0 +1,12 @@
+body {
+  color: rgb(60, 64, 65);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.gedagedi {
+  padding: inherit;
+  /* padding: 50px; */
+  border: 10px dashed #fbfb04;
+  background-color: #fbfb041f;
+}

@@ -1,11 +1,18 @@
 h1 {
-  font-family: 'Verdana';
-  font-weight: lighter;
+  font-family: "Verdana";
+  font-weight: bolder;
   font-size: xx-large;
+  text-align: center;
+  color: red;
+  text-shadow: 5px 10px 5px black;
+word-spacing: 0.6em;
+letter-spacing: 0.2px;
 }
 
 h4 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
   font-weight: 350;
   text-decoration: underline;
   text-transform: capitalize;
@@ -13,6 +20,23 @@ h4 {
   background-color: aqua;
   border: 1px solid;
   padding: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active {
+  color: blue;
 }
 
 .credit {

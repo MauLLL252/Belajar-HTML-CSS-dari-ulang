@@ -1,0 +1,40 @@
+.kotak1 {
+  background-color: rgba(115, 115, 241, 0.776);
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+.kotak2 {
+  background-color: antiquewhite;
+  width: 100px;
+  height: 650px;
+  padding: 10px;
+}
+
+h1 {
+  background-color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 + p {
+  color: aqua;
+  background-color: brown;
+}
+
+td {
+  background-color: cadetblue;
+  border: 1px solid;
+}
+
+td.deskripsi {
+  background-color: bisque;
+  min-width: 450px;
+  max-width: 500px;
+}
+
+.paragraf3 {
+  height: 450px;
+  width: 500px;
+  overflow: scroll; /* bisa scroll atau hidden*/
+}

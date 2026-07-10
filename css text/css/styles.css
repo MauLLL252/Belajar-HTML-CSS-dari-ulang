@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'Verdana';
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+h4 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 350;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-style: italic;
+  background-color: aqua;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.credit {
+  font-size: 80%;
+}

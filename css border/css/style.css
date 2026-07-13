@@ -1,0 +1,32 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.border1 {
+  border: 4px solid red;
+  border-bottom-width: 2px;
+}
+
+.border2 {
+  border-left-width: 4px;
+  border-left-style: dashed;
+  border-color: blue;
+}
+
+.border3 {
+  border-bottom-style: dotted;
+  border-bottom-width: 10px;
+  border-color: gray;
+}
+
+.border4 {
+  border-right-style: double;
+  border-right-color: aqua;
+  border-right-width: 50px;
+}
+
+.border5 {
+  border-color: greenyellow;
+  border-style: groove;
+  border-width: 10px 5px 2px 20px;
+}

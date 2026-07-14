@@ -1,0 +1,46 @@
+.header {
+  background-color: rgb(6, 163, 111);
+ padding: 10px;
+ justify-content: center;
+  display: flex;
+}
+
+.header-title {
+  color: cornsilk;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-title:hover {
+  color: rgb(0, 247, 255);
+}
+
+.judul {
+  background-color: rgb(255, 161, 126);
+ padding: 2px;
+ justify-content: center;
+  display: flex;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+.kredit {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.penulis {
+  color: red;
+}
+
+.tanggal {
+  color: blue;
+}
+
+.konten {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}

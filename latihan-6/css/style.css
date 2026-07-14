@@ -1,0 +1,109 @@
+.box1 {
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+}
+
+.box1 p {
+  background-color: antiquewhite;
+  width: 200px;
+  padding: 10px;
+}
+
+.box2 {
+  background-color: aqua;
+  width: 500px;
+  height: 200px;
+  margin: 5px;
+}
+
+.box2 h2 {
+  background-color: antiquewhite;
+  width: fit-content;
+  padding: 10px;
+  margin: 50px auto;
+  border: 2px solid;
+}
+
+.box2 p {
+  background-color: aquamarine;
+  text-align: justify;
+  width: 95%;
+  margin: auto;
+}
+
+td {
+  background-color: aqua;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.deskripsi {
+  background-color: bisque;
+  min-width: 450px;
+  max-width: 500px;
+}
+
+h3 {
+  color: rgb(13, 0, 255);
+}
+
+/* overflow */
+
+.box3 p {
+  width: 200px;
+  height: 100px;
+}
+
+.satu {
+  overflow: hidden;
+}
+
+.dua {
+  overflow: scroll;
+}
+
+.box4 {
+  background-color: blanchedalmond;
+  height: fit-content;
+  width: fit-content;
+  font-size: 30px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+
+  /* margin */
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+  /* padding */
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+
+  border: 5px solid;
+}
+
+p.hello b {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  
+  border: 5px solid red;
+}
+
+p.hello {
+  background-color: orange;
+  width: fit-content;
+
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  border: 5px solid palegreen;
+}

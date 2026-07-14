@@ -1,0 +1,46 @@
+* {
+  font-family: tahoma;
+}
+
+span {
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+span.inline {
+  display: inline;
+}
+
+span.block {
+  display: block;
+}
+
+span.inline-block {
+  display: inline-block;
+}
+
+.flex-container {
+  background-color: aqua;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  text-align: center;
+}

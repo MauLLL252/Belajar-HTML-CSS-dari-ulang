@@ -1,0 +1,45 @@
+input {
+    display: block;
+    font-size: 120%;
+    padding: 5px 5px 5px 45px ;
+    background-color: #efefef;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(79, 94, 83);
+    border-radius: 10px;
+    font-family: cursive;
+
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:  10px;
+}
+
+input#email {
+    background-image: url(../images/Email.png);
+}
+
+input#instagram {
+    background-image: url(../images/Instagram\ Circle.png);
+}
+
+input#website {
+    background-image: url(../images/Website.png);
+}
+
+input#submit {
+    background-color: rgb(17, 152, 152);
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    font-family: monospace;
+}
+
+input#submit:hover {
+    background-color: aquamarine;
+    color: black;
+    text-shadow: 10px 2px 15px red;
+}
+
+input#submit:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(17, 255, 0);
+}

@@ -1,0 +1,40 @@
+h1 {
+  font-size: 50px;
+  font-family: cursive;
+}
+
+div {
+  height: 400px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.img-larger {
+  width: 300px;
+  height: 300px;
+}
+
+.left-align {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-medium {
+  width: 200px;
+  height: 200px;
+}
+
+.center-align {
+    display: block;
+  margin: 10px auto;
+}
+
+.img-smaller {
+    height: 100px;
+    width: 100px;
+}
+
+.right-align {
+    float: right;
+    margin-left: 10px;
+}

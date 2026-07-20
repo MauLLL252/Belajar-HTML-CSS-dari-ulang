@@ -1,0 +1,46 @@
+.logo-bekasi {
+  height: 80px;
+  width: 80px;
+}
+
+.header {
+  background-color: beige;
+  display: flex;
+  padding: 10px;
+}
+
+.header-title a {
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.header-title {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+}
+
+.nav {
+  margin-top: 0px;
+  background-color: black;
+  padding: 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: bisque;
+}

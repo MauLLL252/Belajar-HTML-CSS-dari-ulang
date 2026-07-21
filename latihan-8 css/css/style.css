@@ -87,3 +87,37 @@
 .konten tr:hover {
   background-color: black;
 }
+
+/* form kontak */
+
+.form-group label {
+  display: block;
+  font-family: cursive;
+  margin-bottom: 10px;
+}
+
+.konten h3 {
+  color: rgb(255, 145, 2);
+}
+
+.form-group input {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.form-group textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  height: 150px;
+}
+
+.submit {
+  display: block;
+  width: 150px;
+  height: 50px;
+  border: 0px;
+  border-radius: 20px;
+  background-color: rgb(85, 128, 128);
+  font-family: monospace;
+  color: whitesmoke;
+}

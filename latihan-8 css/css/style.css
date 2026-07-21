@@ -1,3 +1,5 @@
+/* header */
+
 .logo-bekasi {
   height: 80px;
   width: 80px;
@@ -14,9 +16,7 @@
   font-size: 28px;
   color: black;
   font-weight: bold;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-title {
@@ -25,6 +25,7 @@
   margin-left: 5px;
 }
 
+/* navbar */
 .nav {
   margin-top: 0px;
   background-color: black;
@@ -36,11 +37,53 @@
   margin-left: 100px;
 }
 
-.nav-item a{
-    color: white;
-    text-decoration: none;
+.nav-item a {
+  color: white;
+  text-decoration: none;
 }
 
 .nav-item a:hover {
-    color: bisque;
+  color: bisque;
+}
+
+/* konten */
+
+.konten {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.konten > h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.konten img {
+  width: 80px;
+}
+
+.konten th {
+  background-color: rgb(253, 216, 168);
+  padding: 5px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.konten td {
+  padding: 10px;
+  color: beige;
+}
+
+.konten tr {
+  background-color: rgb(136, 171, 201);
+}
+
+.konten .tabel-ganjil {
+  background-color: cadetblue;
+}
+
+.konten tr:hover {
+  background-color: black;
 }

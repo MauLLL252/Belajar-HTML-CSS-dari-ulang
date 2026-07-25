@@ -1,13 +1,11 @@
 p {
-    background-color: aqua;
-    top: 30px;
-    position: relative;
+  background-color: aqua;
+  top: 30px;
 }
 
-.relative-posisi {
-    background-color: antiquewhite;
-    position: relative;
-    left: 50px;
-    /* bottom: 50px; */
-    top: 100px;
+.absolute-posisi {
+  background-color: antiquewhite;
+  position: relative;
+  left: 50px;
+  top: 100px;
 }

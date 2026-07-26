@@ -1,0 +1,15 @@
+blockquote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  width: 200px;
+  padding: 5px;
+  float: left;
+  font-style: italic;
+  background-color: aliceblue;
+}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+}

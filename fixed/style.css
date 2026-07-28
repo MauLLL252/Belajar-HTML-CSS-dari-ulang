@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 960px;
+}
+
+#header h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 34px;
+}
+
+#nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.higlight, #footer, #nav {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px;
+}
+
+.higlight img {
+  width: 40%;
+}
+
+.artikel {
+  background-color: antiquewhite;
+  width: 280px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
+}
+
+#content {
+    /* height: 500px; */
+    height: 100%;
+    overflow: auto;
+}
+
+.kolom2:hover {
+    background-color: rgba(100, 148, 237, 0.491);
+}

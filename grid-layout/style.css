@@ -1,0 +1,49 @@
+body {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.nav,
+.footer {
+  background-color: rgb(167, 166, 164);
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.nav li {
+  display: inline;
+  padding: 5px;
+}
+
+/* CSS Grid */
+
+.grid-container {
+  display: grid;
+  /* justify-content: space-evenly; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+
+  /* grid-template-columns:  50px 50px auto; */
+  grid-template-columns: 20% 20% auto;
+  grid-template-rows: 100px 200px 50px;
+  gap: 5px 10px;
+  margin: 1%;
+}
+
+.grid-item {
+  background-color: antiquewhite;
+  border: 1px solid red;
+  text-align: center;
+  padding: 20px;
+}
+
+.kolom1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.kolom3 {
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
